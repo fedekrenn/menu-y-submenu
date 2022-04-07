@@ -20,7 +20,7 @@ nav li{
     position: relative;
 }
 
-nav li ul{
+.menu ul{
     position: absolute;
 }
 
@@ -46,7 +46,7 @@ nav li:hover > ul{
 
 /* Primer Nivel */
 
-nav > ul{
+.menu{
     display: flex;
     justify-content: right;
     background-color: #333;
@@ -59,13 +59,13 @@ nav li li{
     width: 200px;
 }
 
-nav > ul > li > ul{
+.menu > li > ul{
     top: 100%;
 }
 
 /* Tercer Nivel */
 
-nav ul ul ul{
+.menu ul ul{
     left: 100%;
     top: 0;
 }
